@@ -194,3 +194,107 @@ button{
 
     color: #666;
 }
+
+
+
+
+
+
+/* Pricing Section */
+
+.pricing{
+    width: 1140px;
+    margin: 100px auto;
+}
+
+.pricing h2{
+    text-align: center;
+    font-size: 52px;
+    margin-bottom: 10px;
+}
+
+.pricing-text{
+    text-align: center;
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.pricing-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.pricing-card{
+    width: 360px;
+    padding: 25px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+}
+
+.pricing-card h5{
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.pricing-card h1{
+    font-size: 55px;
+    margin-bottom: 5px;
+}
+
+.pricing-card p{
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.pricing-card hr{
+    margin-bottom: 20px;
+    border: 1px solid #eeeeee;
+}
+
+.pricing-card ul{
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.pricing-card li{
+    margin-bottom: 12px;
+}
+
+.outline-btn{
+    width: 100%;
+    padding: 14px;
+    background: white;
+    border: 1px solid #2563eb;
+    border-radius: 8px;
+    color: #2563eb;
+}
+
+.fill-btn{
+    width: 100%;
+    padding: 14px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Pro Card */
+
+.active{
+    background: #0f172a;
+    color: white;
+}
+
+.active p{
+    color: #cbd5e1;
+}
+
+.active h5{
+    color: #60a5fa;
+}
+
+.active hr{
+    border-color: #334155;
+}
+
