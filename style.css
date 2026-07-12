@@ -38,3 +38,58 @@
     border-radius: 8px;
 }
 
+
+
+/* Hero Section */
+
+.hero{
+    height: 700px;
+
+    background-image:
+    linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.60)),
+    url("./images/banner.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content{
+    width: 1000px;
+    text-align: center;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: -50px;
+}
+
+.hero-content h1{
+    font-size: 64px;
+    margin-bottom: 25px;
+}
+
+.hero-content p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.hero-btn{
+    background-color: #4F46E5;
+    color: white;
+
+    padding: 15px 35px;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 17px;
+}
+
+
