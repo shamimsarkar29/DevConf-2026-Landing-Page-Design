@@ -405,3 +405,43 @@ button{
 
 }
 
+
+
+
+
+
+
+/* Footer */
+
+.footer{
+    background-color: #0F1C2E;
+    padding: 40px 0;
+    margin-top: 100px;
+}
+
+.footer-content{
+    width: 1140px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p{
+    color: #7C8595;
+    font-size: 18px;
+}
+
+.footer-menu{
+    display: flex;
+    gap: 40px;
+}
+
+.footer-menu a{
+    text-decoration: none;
+    color: #7C8595;
+    font-size: 18px;
+}
+
+
